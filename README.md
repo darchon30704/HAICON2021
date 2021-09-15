@@ -28,3 +28,20 @@ Operation: Dacon
 
 
 https://dacon.io/en/competitions/official/235757/data
+
+
+[Current Work]
+
+Used a 3-layer Stacked GRU model (with 50 units in each layers), and a threshold (for the anomaly score) of 0.04
+An F1 score defined by the contest was used for evaluation.
+F1: 0.120 (TaP: 0.127, TaR: 0.115)
+# of detected anomalies: 2
+
+![E(50)__88_50_3_256_0 04_evaluation](https://user-images.githubusercontent.com/36047953/133432916-413182c9-c178-4c83-ab2c-a14663eb2a00.png)
+
+
+
+[Future Plans]
+Some parameter tuning for the Stacked GRU model. Perhaps using 200 units, changing the window size, changing the threshold, or remove features to be normalize could increase the performance.
+
+Another idea is to use a completely different architecture, such as transformers.
