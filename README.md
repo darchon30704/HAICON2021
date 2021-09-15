@@ -25,3 +25,6 @@ We intend to continuously raise the level of related skills by sharing the model
 Host and organizers: National Intelligence Service and National Security Research Institute, South Korea
 Support: Korea Institute of Information Security & Cryptology, South Korea
 Operation: Dacon
+
+
+https://dacon.io/en/competitions/official/235757/data
